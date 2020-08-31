@@ -3,7 +3,7 @@
 def snake_it_up(string)
   if string[0] == "s"
     10.times {|s| + string}
-    puts string
+    string
   else
     string
   end
